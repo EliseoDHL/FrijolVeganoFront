@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/imagenesProductos/deshebrada-mini.png",
+        "nombre": "Milanesa de Seitán",
+        "precio": 15.50,
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Tu primera preparacion vegana",
+        "precio": 11.50,
+        "cantidad": 2
+    },
+    {
+        "id": 5,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/imagenesProductos/QVeggie-mozarella500g.png",
+        "nombre": "Queso Tipo Mozarella Vegano",
+        "precio": 15.50,
+        "cantidad": 4
+    },
+    {
+        "id": 4,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/beyond-meat-burguer.png",
+        "nombre": "Carne para hamburguesa vegana",
+        "precio": 15.50,
+        "cantidad": 3
+    },
+    {
+        "id": 8,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/CHICHARON-mini.png",
+        "nombre": "Chicharron Vegano",
+        "precio": 15.50,
+        "cantidad": 4
+    },
+    {
+        "id": 1,
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Pozole Vegano",
+        "precio": 15.50,
+        "cantidad": 2
+    },
+    {
+        "id": 3,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/milanesa_colpac_web.png",
+        "nombre": "Milanesa Colpac",
+        "precio": 15.50,
+        "cantidad": 3
+    },
+    {
+        "id": 0,
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Tacos Veganos Supremos",
+        "precio": 11.50,
+        "cantidad": 2
+    }
+]

@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@500&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/*!Aqui va la informacion del contenedor de cursos*/
+
+.contenedorProductos {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.HiperVinculoDeProducto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 140px;
+    height: 40%;
+}
+
+/*TODO: Aqui vamos a modificar todo lo que sea respecto al titulo */
+.vinculo,
+.vinculoDos {
+    width: 40%;
+    height: 40%;
+}
+
+.vinculo,
+.nuevoProducto {
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    width: 40%;
+    height: 40%;
+}
+
+.vinculoDos,
+.nuevoCurso {
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+
+}
+
+.divDelNombre {
+    margin: 0%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.titulo h1 {
+    margin: 5%;
+    font-size: 32px;
+    text-align: center;
+}
+
+/* todo lo que va aqui es respecto a los parrafos */
+
+
+.contenedorProductos p {
+    height: 50%;
+    /*altura de nuestro primer parrafo*/
+    width: 40%;
+    /*Ancho de los parrafos*/
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 0rem;
+}
+
+.inputTituloDeCurso,
+.inputCategoriaCurso {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.4px solid #000;
+    background: #FFF;
+    justify-content: center;
+
+}
+
+.inputDescripcionProducto {
+    /*!Esto es de la descripcion del pruducto*/
+    width: 100%;
+    height: 150px;
+    margin: auto; /*Centra horizontalmente el elemento de entrada dentro del contenedor */
+    border-radius: 5px;
+    border: 1.4px solid #000;
+    background: #FFF;
+    justify-content: center;
+}
+
+
+/* !Importante recordar que si son clases y que estan pintadas en javascript */
+/* 
+   .vistaPreviaProducto,.inputdelCurso,.vistaPreviaVideo{
+    width: 300px;
+    height: 300px;
+    margin: 0%; 
+  } 
+
+
+
+
+.inputDescripcionProducto {
+    text-align: start;
+    border-radius: 5px;
+    border: 1.4px solid #000;
+    background: #FFF;
+    transition: background 0.8s; */
+/* box-shadow: 0 -70px -63px -60px #000;
+    justify-content: center;
+}
+
+
+/* .titulodescripcionProducto p {
+    margin-left: 100px;
+    margin-right: auto;
+    margin-bottom: 0%;
+    align-items: center;
+    justify-content: center;
+}
+.input1{
+    width: 78%;
+    height: 40px;
+}
+.informacionCursos{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} */
+/*!Aqui va la primera parte del los productos*/
+
+
+
+/* ?        Aqui comenzamos con la modicacion de los inputs despues de la imagen */
+
+.inputCostoCurso {
+    width: 100%;
+    height: 100%;
+    -moz-appearance: textfield;
+}
+
+.costosYExistencias {
+    margin-top: 5%;
+    /* margin-bottom: 60px; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.textoLista {  /*Le damos un estilo a la lista*/
+    height: 100%; /*  altura de nuestro primer parrafo*/
+    width: 100%;  /* Ancho de los parrafos*/
+     text-align: start;
+    list-style: none;
+
+    } 
+.input1,
+.input2,
+.input3,
+.input4,
+.input5,
+.input6,
+.input7,
+.input8,
+.input9,
+.input0 {
+    width: 100%; 
+}
+
+/*!Aqui va lo del boton*/
+
+.agregado {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.botonAgregar {
+    background-color: #F50087;
+    font-family: 'Montserrat', sans-serif;
+    width: 148px;
+    height: 46px;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.botonEnviar {
+    background-color: #F50087;
+    font-family: 'Montserrat', sans-serif;
+    width: 148px;
+    height: 46px;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.centroTituloImagen{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.centroTituloImagen p{
+    text-align: center;
+}
+.imagenPreviaDeCurso {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.imagenSubirArchivo{
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+.informacionFile{
+    display: flex;
+    justify-content: center;
+    align-items: center;    /* Se acomodan verticalmente     */
+    margin: 5%;
+}
+#etiquetaDeImagen{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+#etiquetaDevideo{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+
+#inputImagenCurso,
+#inputVideoCurso{
+    display: none;
+}
+#imagenPrevisualizada,
+#divCurso,
+#videoTotalCurso {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centrarImagenPrevia,
+.centrarvideoPrevio {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+/* 
+#etiquetaDevideo{
+    width: 100%;
+    height: 300px;
+
+} */
+
+/* !Importante recordar que si son clases y que estan pintadas en javascript */
+#cursoPrevisualizado{
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 200px;
+    flex-shrink: 0;
+    max-width: 100%;
+    /* La imagen se ajustará al ancho máximo del contenedor */
+    height: 100%;
+    /* La altura se ajustará automáticamente para mantener la proporción */
+
+}
+
+.imagenSubirArchivo{
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.agregado {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+
+.botonEnviar {
+    background-color: #F50087;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight:900; */
+    width: 200px;
+    height: 70px;
+    border-radius: 9px;
+    border-style: none;
+    font-size: 20px;
+    color: white;
+}
