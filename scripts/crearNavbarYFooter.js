@@ -118,7 +118,7 @@ const logoBuscarMenuHamburguesa = document.querySelector("#logo-buscar-menu-hamb
 //Inicio
 var lista2 = document.createElement("li");
 var aIndex = document.createElement("a");
-aIndex.href="./index.html";
+aIndex.href="../index.html";
 aIndex.innerHTML="Inicio";
 
 //Productos
@@ -252,7 +252,7 @@ aAvisoDePrivacidad.href="./avisoDePrivacidad.html";
 aAvisoDePrivacidad.innerHTML = "Aviso de privasidad";
 
 const aPoliticaDeEnvio = document.createElement("a");
-aPoliticaDeEnvio.href="./politicasEnvio.html";
+// aPoliticaDeEnvio.href="./politicasEnvio.html";
 aPoliticaDeEnvio.innerHTML = "Politica de Envio";
 
 const derechosReservados = document.createElement("p");
