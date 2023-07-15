@@ -3,7 +3,7 @@
         "id": 0,
         "esProducto": true,
         "modelo": "producto",
-        "src": "../assets/img/imagenesProductos/deshebrada-mini.png",
+        "src": "../assets/img/imagenesProductos/deshebrada.png",
         "nombre": "Milanesa de Seitán",
         "precio": 15.50,
         "cantidad": 1
@@ -21,7 +21,7 @@
         "id": 5,
         "esProducto": true,
         "modelo": "producto",
-        "src": "../assets/img/imagenesProductos/QVeggie-mozarella500g.png",
+        "src": "../assets/img/imagenesProductos/QVeggie.png",
         "nombre": "Queso Tipo Mozarella Vegano",
         "precio": 15.50,
         "cantidad": 4
