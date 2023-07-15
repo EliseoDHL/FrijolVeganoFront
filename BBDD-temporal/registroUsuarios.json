@@ -7,7 +7,7 @@
         "telefono": "9991178822",
         "correo": "magg959596@gmail.com",
         "contraseña": "Abcd@1234",
-        "imagen": "../assets/ImagenesUsuarios/Gustavo.png"
+        "imagen": "../assets/img/ImagenesUsuarios/Gustavo.png"
     },
     {
         "id": 1,
@@ -17,7 +17,7 @@
         "telefono": "8184592356",
         "correo": "hector.rangel948@gmail.com",
         "contraseña": "Abcd@1234",
-        "imagen": "../assets/ImagenesUsuarios/Hector.png"
+        "imagen": "../assets/img/ImagenesUsuarios/Hector.png"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "telefono": "7131595695",
         "correo": "andrea009795@gmail.com",
         "contraseña": "Abcd@1234",
-        "imagen": "../assets/ImagenesUsuarios/Andrea.png"
+        "imagen": "../assets/img/ImagenesUsuarios/Andrea.png"
     },
     {
         "id": 3,
@@ -37,7 +37,7 @@
         "telefono": "4921031325",
         "correo": "itzel.vallemedina1@gmail.com",
         "contraseña": "Abcd@1234",
-        "imagen": "../assets/ImagenesUsuarios/Itzel.png"
+        "imagen": "../assets/img/ImagenesUsuarios/Itzel.png"
     },
     {
         "id": 4,
@@ -47,6 +47,6 @@
         "telefono": "5548609841",
         "correo": "elidharolpz@gmail.com",
         "contraseña": "Abcd@1234",
-        "imagen": "../assets/ImagenesUsuarios/Ricardo.png"
+        "imagen": "../assets/img/ImagenesUsuarios/Ricardo.png"
     }
 ]

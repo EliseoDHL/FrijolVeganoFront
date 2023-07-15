@@ -4,22 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito compras</title>
-    <!-- Enlace con estilos CSS externos bootstrap -->
+    <title>Recuperacion de Contraseña</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- Finaliza conexión con Bootstrap -->
-    <!-- Enlace con estilos CSS internos -->
+    <link rel="stylesheet" href="../styles/styleLogIn.css">
     <link rel="stylesheet" href="../styles/styleNavbarFooter.css">
-    <link rel="stylesheet" href="../styles/carritoCompras.css">
-    <!-- * Le ponemos el elemento ico del logo -->
-    <link href="../assets/img/iconoFrijolVegano.ico" rel="icon" />
 </head>
 
 <body>
-    <header>
-        <nav></nav>
-    </header>
     <div class="navBar">
         <div class="navBarSuperior">
             <!--Menú hamburguesa-->
@@ -90,100 +82,43 @@
                 <li><a href="./productos.html">Productos</a></li>
                 <li><a href="./acercaDeNosotros.html"> Nosotros</a></li>
                 <li><a href="./contactanos.html">Contacto</a></li>
+                <li><a href="./crearUnNuevoCurso.html">Creación Productos/Cursos</a></li>
             </ul>
         </div>
         <!--Termina Navbar secundaria-->
     </div>
 
-    <main>
-        <!-- Aqui inicia la sección del contenido del carrito de compras -->
-        <h1 id="bienvenida-carrito">Bienvenido a tu carrito de compras</h1>
-        <section class="contenedor-seccion-completa">
-            <div class="contenedor-columna1 col-lg-7 col-md-7-col-sm-12">
 
-                <!-- <div class="carritoCompras col-lg-9 col-md-6"></div> -->
 
+    <div class="container-fluid contenedorRecuperacion">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 d-none d-lg-block d-md-block">
+                <img class="imagenLogIn" src="../assets/img/ChileRelleno.jpg">
             </div>
 
-            <div class="contenedor-columna2 col-lg-5 col-md-5">
-
-                <div class="contenedor-subtotalPago">
-                    <button class="btn-vaciar">Vaciar Carrito</button>
-
-                    <P class="titulo-subtotal">Elementos en carrito: <span id="cantidad-productos"></span></P>
-                    <p class="titulo-total">Total: <strong>$ <span id="precio-productos"></span></strong></p>
-                    <!-- <button class="boton-pago">Proceder al pago</button> -->
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="boton-pago" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Hacer pedido
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Confirme sus datos</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>Aqui debe ir la información del usuario que tiene iniciada la sesión, pueden
-                                        colocarse</p>
-                                    <p>Los elementos</p>
-                                    <p>de esta forma</p>
-                                    <p>Nota: el texto esta justificado</p>
-                                    <p><strong>Nota2: se activa un evento que imprime en consola que se presionó el
-                                            botón</strong></p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                    <button type="button" class="boton-pago" data-bs-dismiss="modal">Mis datos son
-                                        correctos</button>
-                                </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="contenedorAlineadorRecuperacion">
+                    <h2 class="tituloRecuperacion">RECUPERACION DE CONTRASEÑA</h2>
+                    <div class="contenedorFormularioRecuperacion">
+                        <form>
+                            <label class="textoLabel">Correo Electronico</label>
+                            <input class="form-control propiedadesFormularioRecuperacion" type="text" placeholder="example@example.com"
+                                aria-label="default input example" required>
+                            <div class="contenedorBotonRecuperacion">
+                                <button type="submit" class=" colorBotonRecuperacion">ENVIAR</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
-                </div>
-
-                <div class="contenedor-recomendaciones">
-                    <h2><strong></strong>Recomendaciones para ti</strong></h2>
-                    <!-- <div class="cloumna2"> -->
-
-                    <div class="item-recomendaciones">
-                        <img src="../assets/img/hamburguesaVegana.jpg" alt="Hamburguesa Vegana"
-                            class="imagen-recomendaciones">
-                        <div class="titulo-recomendaciones"><strong>Hamburguesa Vegana</strong></div>
-                        <div class="precio-recomendaciones">$80.00</div>
-                        <button class="boton-recomendaciones">Agregar al carrito</button>
-                    </div>
-
-                    <div class="item-recomendaciones">
-                        <img src="../assets/img/jamonVegano.png" alt="Jamón Vegano" class="imagen-recomendaciones">
-                        <div class="titulo-recomendaciones"><strong>Jamón Vegano</strong></div>
-                        <div class="precio-recomendaciones">$75.00</div>
-                        <button class="boton-recomendaciones">Agregar al carrito</button>
-                    </div>
-
-                    <div class="item-recomendaciones">
-                        <img src="../assets/img/salchichasVegana.png" alt="Salchicha Vegana"
-                            class="imagen-recomendaciones">
-                        <div class="titulo-recomendaciones"><strong>Salchicha Vegana</strong></div>
-                        <div class="precio-recomendaciones">$99.00</div>
-                        <button class="boton-recomendaciones">Agregar al carrito</button>
-                    </div>
-
-                    <!-- </div> -->
 
                 </div>
             </div>
 
+        </div>
+    </div>
 
-        </section>
-    </main>
+
+
+
 
     <footer>
         <div class="footer"> <!--Ayuda a que el footer tome el ancho correcto en pantalla-->
@@ -212,17 +147,10 @@
         </div>
     </footer>
 
-    <!-- Conexión con JS externo Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-        crossorigin="anonymous"></script>
-    <!-- Finaliza conexión de JS Bootstrap -->
-    <!-- Conexión con JS interno -->
-    <script src="../scripts/carritoCompras.js"></script>
-
+    <script src="../scripts/menuHamburguesa.js"></script>
 </body>
 
 </html>

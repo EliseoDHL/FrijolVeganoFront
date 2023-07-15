@@ -1,6 +1,6 @@
 //* Variables para almacenar datos de bases de datos
 let url = '../BBDD-temporal/';
-let endPoint = `${url}carritoCompras-respaldo.json`;
+let endPoint = `${url}carritoCompras.json`;
 //* Varibles para el carrito
 let carritoCompras = [];
 let aumento = false;
@@ -211,7 +211,7 @@ function pintarCarrito(carrito) {
                 <div class="contenedorProducto">
                     <div class="contenedorDescripcion">
                         <p class="titulo-item"><strong>${h3Product}</strong></p>
-                        <p class="descrpcion-item">¿Alguna descripción breve? NO PUEDE SER IGUAL QUE LA PLANTILLA DE PRODCUTO PQ QUEDARÍA MUY LARGO Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus ipsum ipsam eveniet assumenda, id rerum officiis quo mollitia praesentium sed, dolore alias eaque! Vero mollitia ex blanditiis rerum nemo quam!</p>
+                        <p class="descrpcion-item">Producto Vegano</p>
                         <p class="precio-item">Precio: <strong>$ ${pPrice}</strong></p>
                         <p>Cantidad: <strong><span id="${id}" class="cantidad-${modelo}-${id}">${cantidad}</span></strong></p>
                     </div>

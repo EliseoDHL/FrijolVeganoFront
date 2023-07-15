@@ -1,43 +1,74 @@
-{"Carrito":[
+[
     {
         "id": 0,
-        "producto": true,
-        "src": "../assets/imagenesProductos/Beyond-meat-salchicha.JPG",
-        "nombre": "Producto 1",
-        "precio": "15.50",
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/imagenesProductos/deshebrada-mini.png",
+        "nombre": "Milanesa de Seitán",
+        "precio": 15.50,
         "cantidad": 1
     },
     {
+        "id": 5,
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Tu primera preparacion vegana",
+        "precio": 11.50,
+        "cantidad": 2
+    },
+    {
+        "id": 5,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/imagenesProductos/QVeggie-mozarella500g.png",
+        "nombre": "Queso Tipo Mozarella Vegano",
+        "precio": 15.50,
+        "cantidad": 4
+    },
+    {
         "id": 4,
-        "producto": true,
-        "src": "../assets/imagenesProductos/Beyond-meat-salchicha.JPG",
-        "nombre": "Producto 2",
-        "precio": "15.50",
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/beyond-meat-burguer.png",
+        "nombre": "Carne para hamburguesa vegana",
+        "precio": 15.50,
         "cantidad": 3
     },
     {
         "id": 8,
-        "producto": true,
-        "src": "../assets/imagenesProductos/Beyond-meat-salchicha.JPG",
-        "nombre": "Producto 3",
-        "precio": "15.50",
-        "cantidad": 4
-    },
-    {
-        "id": 5,
-        "producto": true,
-        "src": "../assets/imagenesProductos/Beyond-meat-salchicha.JPG",
-        "nombre": "Producto 4",
-        "precio": "15.50",
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/CHICHARON-mini.png",
+        "nombre": "Chicharron Vegano",
+        "precio": 15.50,
         "cantidad": 4
     },
     {
         "id": 1,
-        "producto": false   ,
-        "src": "../assets/imagenesProductos/Beyond-meat-salchicha.JPG",
-        "nombre": "Producto 5",
-        "precio": "15.50",
-        "cantidad": 4
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Pozole Vegano",
+        "precio": 15.50,
+        "cantidad": 2
+    },
+    {
+        "id": 3,
+        "esProducto": true,
+        "modelo": "producto",
+        "src": "../assets/img/ImagenesProductos/milanesa_colpac_web.png",
+        "nombre": "Milanesa Colpac",
+        "precio": 15.50,
+        "cantidad": 3
+    },
+    {
+        "id": 0,
+        "esProducto": false,
+        "modelo": "curso",
+        "src": "../assets/img/ImagenesCursos/imgCursoGenerico.png",
+        "nombre": "Tacos Veganos Supremos",
+        "precio": 11.50,
+        "cantidad": 2
     }
-
-]}
+]
